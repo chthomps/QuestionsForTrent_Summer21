@@ -1,6 +1,6 @@
 
 import java.util.Random;
-import java.io.*;
+import java.io.*;   //includes FileReader (reader class of java.io package) I'm reading that FileReader is the class that reads text files
 
 public class TestData {
 	
@@ -25,6 +25,12 @@ public class TestData {
 			}
 			
 			outFile.println();
+		}
+		
+		FileReader reader = new FileReader ("test.txt");  //FileReader attempt
+		int character;
+		while ((character = reader.read()) != -1) {
+			System.out.print((char) character);	
 		}
 		
 		
