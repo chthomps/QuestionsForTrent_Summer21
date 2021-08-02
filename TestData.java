@@ -33,7 +33,7 @@ public class TestData {
 			System.out.print((char) character);	
 		}
 		
-		
+		reader.close();
 		outFile.close();
 		System.out.println("Output file has been created: " + fileName);
 		System.out.print(outFile);
