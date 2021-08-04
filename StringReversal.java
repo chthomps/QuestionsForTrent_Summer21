@@ -12,7 +12,6 @@ public class StringReversal {
 	public static void main(String[] args) {
 		
 		
-		
 		Scanner scan = new Scanner(System.in);
 		phraseEntry= scan.nextLine();
 	
@@ -21,6 +20,7 @@ public class StringReversal {
 		
 		
 		System.out.println("The reverse order of your input string is: " + StringReversal.reverseString(phraseEntry));
+		
 		scan.close();
 	}
 		
